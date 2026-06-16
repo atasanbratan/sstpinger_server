@@ -1,14 +1,4 @@
 {
-  "functions": {
-    "api/add.go": {
-      "memory": 128,
-      "maxDuration": 10
-    },
-    "api/list.go": {
-      "memory": 128,
-      "maxDuration": 10
-    }
-  },
   "env": {
     "GITHUB_OWNER": "",
     "GITHUB_REPO": "",
