@@ -1,10 +1,10 @@
 {
   "functions": {
-    "api/add/**": {
+    "api/add.go": {
       "memory": 128,
       "maxDuration": 10
     },
-    "api/list/**": {
+    "api/list.go": {
       "memory": 128,
       "maxDuration": 10
     }
