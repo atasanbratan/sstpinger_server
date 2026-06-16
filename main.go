@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/example/sstpinger/api"
+	"github.com/example/sstpinger/pkg/api"
 )
 
 func main() {
