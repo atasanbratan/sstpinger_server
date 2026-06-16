@@ -1,0 +1,92 @@
+[
+  {
+    "hostname": "PUBLIC-VPN-189.OPENGW.NET",
+    "id": 1924472,
+    "info": "72 SESSIONS 427.87",
+    "info2": "ASIA 427.87",
+    "ip": "219.100.37.180",
+    "key": "219.100.37.180:443",
+    "location": {
+      "country": "JAPAN",
+      "name": "SOFTETHER TELECOMMUNI...",
+      "short": "JP"
+    },
+    "port": 443,
+    "sessions": 72
+  },
+  {
+    "hostname": "VPN454274221.OPENGW.NET",
+    "id": 622796,
+    "info": "4 SESSIONS 960.95",
+    "info2": "ASIA 960.95",
+    "ip": "175.134.176.178",
+    "key": "175.134.176.178:1333",
+    "location": {
+      "country": "JAPAN",
+      "name": "KDDI CORPORATION",
+      "short": "JP"
+    },
+    "port": 1333,
+    "sessions": 4
+  },
+  {
+    "hostname": "VPN700425050.OPENGW.NET",
+    "id": 593267,
+    "info": "11 SESSIONS 44.52",
+    "info2": "ASIA 44.52",
+    "ip": "211.193.217.130",
+    "key": "211.193.217.130:995",
+    "location": {
+      "country": "SOUTH KOREA",
+      "name": "KOREA TELECOM",
+      "short": "KR"
+    },
+    "port": 995,
+    "sessions": 11
+  },
+  {
+    "hostname": "VPN742926420.OPENGW.NET",
+    "id": 1411470,
+    "info": "53 SESSIONS 73.23",
+    "info2": "ASIA 73.23",
+    "ip": "61.47.212.110",
+    "key": "61.47.212.110:1722",
+    "location": {
+      "country": "SOUTH KOREA",
+      "name": "SK BROADBAND CO LTD",
+      "short": "KR"
+    },
+    "port": 1722,
+    "sessions": 53
+  },
+  {
+    "hostname": "VPN781391688.OPENGW.NET",
+    "id": 561810,
+    "info": "9 SESSIONS 93.80",
+    "info2": "ASIA 93.80",
+    "ip": "221.157.159.139",
+    "key": "221.157.159.139:995",
+    "location": {
+      "country": "SOUTH KOREA",
+      "name": "KOREA TELECOM",
+      "short": "KR"
+    },
+    "port": 995,
+    "sessions": 9
+  },
+  {
+    "hostname": "VPN836287276.OPENGW.NET",
+    "id": 335245,
+    "info": "9 SESSIONS 225.25",
+    "info2": "ASIA 225.25",
+    "ip": "61.84.36.14",
+    "key": "61.84.36.14:1678",
+    "location": {
+      "country": "SOUTH KOREA",
+      "name": "KOREA TELECOM",
+      "short": "KR"
+    },
+    "port": 1678,
+    "sessions": 9
+  }
+]
