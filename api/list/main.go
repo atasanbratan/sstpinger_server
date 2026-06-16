@@ -42,3 +42,10 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
     json.NewEncoder(w).Encode(items[start:end])
 }
+
+func main() {
+    http.HandleFunc("/", Handler)
+    if err := http.ListenAndServe(":8080", nil); err != nil {
+        panic(err)
+    }
+}
