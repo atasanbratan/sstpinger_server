@@ -1,10 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "go",
-  "env": {
-    "GITHUB_OWNER": "",
-    "GITHUB_REPO": "",
-    "GITHUB_FILE_PATH": "",
-    "GITHUB_TOKEN": ""
-  }
+  "framework": "go"
 }
