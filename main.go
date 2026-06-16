@@ -1,25 +1,24 @@
-package backend
 package main
 
 import (
-    "fmt"
-    "log"
-    "net/http"
-    "os"
+	"fmt"
+	"log"
+	"net/http"
+	"os"
 
-    "github.com/example/sstpinger/api"
+	"github.com/example/sstpinger/api"
 )
 
 func main() {
-    mux := http.NewServeMux()
-    mux.HandleFunc("/api/add", api.AddHandler)
-    mux.HandleFunc("/api/list", api.ListHandler)
+	mux := http.NewServeMux()
+	mux.HandleFunc("/api/add", api.AddHandler)
+	mux.HandleFunc("/api/list", api.ListHandler)
 
-    port := os.Getenv("PORT")
-    if port == "" {
-        port = "3000"
-    }
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "3000"
+	}
 
-    log.Printf("Listening on port %s", port)
-    log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), mux))
+	log.Printf("Listening on port %s", port)
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), mux))
 }
