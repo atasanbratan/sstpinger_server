@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "api/add/main.go": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/list/main.go": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "env": [
+    "GITHUB_OWNER",
+    "GITHUB_REPO",
+    "GITHUB_FILE_PATH",
+    "GITHUB_TOKEN"
+  ],
+  "buildCommand": "go build -o /tmp/build ./api/add && go build -o /tmp/build ./api/list"
+}
